@@ -1,0 +1,9 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = alexmisk
+	email = alexmisk@ya.ru
+[pull]
+	rebase = true
+[push]
+	default = current

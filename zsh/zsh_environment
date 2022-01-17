@@ -1,0 +1,12 @@
+export EDITOR=nvim
+
+# Default Python version for virtualenv
+export AUTOSWITCH_DEFAULT_PYTHON="/usr/bin/python3"
+
+# Restic
+export AWS_ACCESS_KEY_ID=$(security find-generic-password -s backup-restic-amsrvr-id -w)
+export AWS_SECRET_ACCESS_KEY=$(security find-generic-password -s backup-restic-amsrvr-key -w)
+export RESTIC_REPOSITORY=$(security find-generic-password -s backup-restic-amsrvr-repository -w)
+export RESTIC_PASSWORD_COMMAND='security find-generic-password -s backup-restic-amsrvr-repopasswd -w'
+
+

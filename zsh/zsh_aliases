@@ -1,0 +1,4 @@
+# CLI Utils
+alias e=nvim
+alias l='exa -la'
+alias ts=tmuxinator start

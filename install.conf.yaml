@@ -1,0 +1,32 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.gitconfig:
+    ~/.tmux.conf:
+
+    ~/.zshrc:
+      force: true
+      path: zshrc
+
+    ~/.config/zsh/:
+      glob: true
+      path: zsh/*
+
+    ~/.config/antigen/:
+      glob: true
+      path: antigen/*
+
+    ~/.config/nvim/init.vim: nvim/init.vim
+
+    ~/.config/kitty/:
+      if: '[ `uname` = Darwin ]'
+      glob: true
+      path: kitty/*
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
