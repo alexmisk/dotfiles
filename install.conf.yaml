@@ -30,3 +30,4 @@
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
+  - [sh -c "./_scripts/install-vim-plug.sh", Installing vim-plug ]
