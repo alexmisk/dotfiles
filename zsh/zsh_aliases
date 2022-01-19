@@ -1,4 +1,5 @@
 # CLI Utils
 alias e=nvim
-alias l='exa -la'
+alias c=bat
+alias l="exa --long --all --git --sort type"
 alias ts=tmuxinator start
