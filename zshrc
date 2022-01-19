@@ -1,17 +1,17 @@
 # Load envs
 source ~/.config/zsh/zsh_environment
 
-# Load aliases
-source ~/.config/zsh/zsh_aliases
-
-# Load functions
-source ~/.config/zsh/zsh_functions
-
 # Load Antigen
 source ~/.config/antigen/antigen.zsh
 
 # Load Antigen configurations
 antigen init ~/.config/antigen/antigenrc
+
+# Load aliases
+source ~/.config/zsh/zsh_aliases
+
+# Load functions
+source ~/.config/zsh/zsh_functions
 
 # Brew
 export PATH=/opt/homebrew/bin:$PATH
