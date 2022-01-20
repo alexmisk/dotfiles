@@ -3,6 +3,7 @@ Plug 'preservim/nerdtree'
 " Plug 'kyazdani42/nvim-web-devicons' " for file icons
 " Plug 'kyazdani42/nvim-tree.lua'
 Plug 'rktjmp/lush.nvim'
+Plug 'editorconfig/editorconfig-vim'
 Plug 'ellisonleao/gruvbox.nvim'
 Plug 'vim-airline/vim-airline'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }

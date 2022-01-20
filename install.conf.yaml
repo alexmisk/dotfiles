@@ -8,6 +8,7 @@
 - link:
     ~/.gitconfig:
     ~/.tmux.conf:
+    ~/.editorconfig:
 
     ~/.zshrc:
       force: true
