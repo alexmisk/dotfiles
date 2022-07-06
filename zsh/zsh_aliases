@@ -3,3 +3,4 @@ alias e=nvim
 alias c=bat
 alias l="exa --long --all --git --sort type"
 alias ts=tmuxinator start
+alias diff=colordiff
